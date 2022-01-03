@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3{
+    font-family: 'Fredericka the Great', cursive;
+}
+p,a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .7em;
+    text-decoration: none;
+}
+section{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+li a:hover{
+    opacity: .3;
+    text-decoration: underline;
+}
+/* header */
+header{
+    background: url(../img/bg.png) no-repeat center/cover;
+    height: 90vh;
+    color: #fff;
+}
+h1{
+    height: 10vh;
+    font-size: 1.4em;
+    padding:1em 4em;
+}
+header section{
+    width: 15%;
+    padding: 10% 0;
+}
+h2{
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+header section p, footer article:nth-of-type(1) p{
+    margin-bottom: 1em;
+}
+header section a, footer article:nth-of-type(1) a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 0.3rem 1rem;
+}
+header section a:hover, footer article:nth-of-type(1) a:hover{
+    background-color: #fff;
+    color: #222;
+}
+nav{
+    text-align: right;
+    margin-right: 10%;
+}
+/* header */
+
+/* main */
+main{
+    height: 50vh;
+}
+h3{
+    margin: 2em 0;
+    font-size: 1em;
+}
+main section article{
+    width: 30%;
+    border: 3px double #222;
+    padding: 1em;
+    margin: 7% 35%;
+}
+main a{
+    color: #222;
+}
+main a:hover{
+    text-decoration: underline;
+}
+/* main */
+
+/* footer */
+footer{
+    background:#3A3B4A;
+    height: 20vh;
+    padding-top: .2em;
+}
+footer article:nth-of-type(1){
+    width: 36vw;
+    margin: 1em;
+    color: #fff;
+}
+footer ul{
+    text-align: right;
+    margin-right: 2em;
+}
+footer ul li{
+    display: inline;
+    text-align: right;
+    margin-right: .6em;
+}
